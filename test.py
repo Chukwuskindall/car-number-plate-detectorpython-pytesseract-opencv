@@ -11,7 +11,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 # MongoDB setup
 client = MongoClient(
-    "mongodb+srv://a:a@cluster0.1cih6pg.mongodb.net/")
+    "")
 db = client['car-number']
 collection = db['number-plates']
 
